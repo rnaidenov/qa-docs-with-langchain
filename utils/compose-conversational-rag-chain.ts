@@ -66,7 +66,7 @@ export const composeConversationalContextChain = async (
   const config: RunnableConfig = { configurable: { sessionId } }
 
   return async (followUpQuestion: string) => {
-    const finalResult = await withHistory.invoke(
+    const finalResult = await withHistory.stream(
       { question: followUpQuestion },
       config
     );

@@ -1,4 +1,3 @@
-import { App } from "bun";
 import 'dotenv'
 import readline from 'readline';
 import { PineconeStore } from "@langchain/pinecone";
@@ -70,8 +69,6 @@ const getMessageHistoryForSession = (sessionId: string) => {
 // };
 
 // Start the follow-up question loop
-// handleFollowUp();
-
 const handleResponse = async (sessionId: string, question: string): Promise<string> => {
   try {
     const messageHistory = getMessageHistoryForSession(sessionId);
@@ -80,6 +77,7 @@ const handleResponse = async (sessionId: string, question: string): Promise<stri
       sessionId, messageHistory, retrievalChain
     );
 
+    // @ts-ignore
     return conversationalRAGChain(question);
   } catch (error) {
     console.error('kur');
@@ -98,7 +96,12 @@ Bun.serve({
 
       const answer = await handleResponse(sessionId, question);
 
-      return Response.json({ success: true, data: answer });
+      return new Response(answer, {
+        status: 200,
+        headers: {
+          "Content-Type": "text/plain"
+        },
+      });
     } catch (error) {
       console.error(error);
       return Response.error();
