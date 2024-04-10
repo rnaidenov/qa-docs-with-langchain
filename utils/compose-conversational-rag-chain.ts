@@ -9,7 +9,10 @@ import { convertDocsToWrappedString } from "./convert-docs-to-string";
 
 export const composeConversationalContextChain = async (
   sessionId: string,
-  retrievalChain: any,
+  messageHistory: ChatMessageHistory,
+  retrievalChain: RunnableSequence<{
+    question: string;
+  }, string>
 ) => {
   // prompt = system + history + human messages
   const rephraseQuestionPrompt = ChatPromptTemplate.fromMessages([
@@ -49,10 +52,6 @@ export const composeConversationalContextChain = async (
     new ChatOpenAI({ modelName: "gpt-3.5-turbo" }),
     new StringOutputParser(),
   ]);
-
-  // Session history
-  // => This is where we'll store the input / output messages 
-  const messageHistory = new ChatMessageHistory();
 
   const withHistory = new RunnableWithMessageHistory({
     runnable: conversationalRetrievalChain,
