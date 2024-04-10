@@ -1,0 +1,306 @@
+[
+  {
+    "category": "For Players and Fans",
+    "questions": [
+      {
+        "question": "Where can I find more games?",
+        "answer": "You can find all of our games on our main pages in the App Store and Google Play Store by tapping Homa Games on the search box or by clicking the ‘Homa Games’ button in any of our games."
+      },
+      {
+        "question": "How can I report a bug or share feedback?",
+        "answer": "We’d love to hear from you! Please write to support@homagames.com to send us your comments and report bugs. Remember to mention the name you are referring to and the device model you’re using to play."
+      },
+      {
+        "question": "How can I request a refund for an accidental purchase?",
+        "answer": "For refunds from the App Store, go to reportaproblem.apple.com, sign in, and follow the instructions to request a refund. In Google Play Store, you can request a refund on the Google Play Help website."
+      },
+      {
+        "question": "How can I cancel a subscription for one of your games?",
+        "answer": "You can cancel your subscription at any time by following the instructions in Google Play or Apple Store's subscriptions sections."
+      }
+    ]
+  },
+  {
+    "category": "For Game Makers",
+    "questions": [
+      {
+        "question": "I’m a game developer, can I publish my games with you?",
+        "answer": "We’re always looking for the best games and people to work with! Please complete our Submit your game form and we’ll contact you."
+      },
+      {
+        "question": "Why publishing with Homa?",
+        "answer": "When working with an experienced partner that knows the industry and knows the processes, everything goes much faster. We work hard to create the best working environment for our partners by making sure they can develop very good prototypes with appropriate feedback."
+      },
+      {
+        "question": "What does Homa offer to partner studios and developers?",
+        "answer": "Homa offers a publishing manager to lead the project, support from our Market Intelligence team, a creative team for game creatives, and an expert UA and Monetization team to scale the games."
+      }
+    ]
+  },
+  {
+    "category": "For Industry Talent",
+    "questions": [
+      {
+        "question": "Do you have any open positions?",
+        "answer": "We do! Explore our Careers page and click on \"See open roles\" to view and apply for current job opportunities."
+      },
+      {
+        "question": "Can I submit my CV for future roles?",
+        "answer": "Yes, send your CV to our email or use our general application form on the Careers page."
+      },
+      {
+        "question": "Why no response to my job application yet?",
+        "answer": "We aim to reply within >1 week, but timelines may vary due to application volume or seasonal peaks. We'll update you as soon as we can."
+      },
+      {
+        "question": "How to prepare for an interview at Homa?",
+        "answer": "Discover our games and values to understand our market impact. Highlight your skills and ask questions to show your interest."
+      },
+      {
+        "question": "Does Homa offer internships or apprenticeships?",
+        "answer": "Yes, check our Early Careers page for opportunities. Ensure you have a valid “Convention de stage” from your university."
+      },
+      {
+        "question": "Homa's stance on diversity and inclusion?",
+        "answer": "Homa is devoted to diversity and inclusion through initiatives like our D&I Committee, anti-harassment policies, and equality training sessions."
+      }
+    ]
+  },
+  {
+    "category": "Contact Us",
+    "description": "We are switching to Slack support.",
+    "questions": [
+      {
+        "question": "Homa Support for Game Developers",
+        "answer": "For support, game developers can access detailed information and assistance by visiting the Homa Support page for game developers.",
+        "link": "https://support.homagames.com/knowledge/homa-support-for-game-developers"
+      }
+    ]
+  },
+  {
+    "category": "Latest News",
+    "description": "Latest news and guides on Homa Lab",
+    "articles": [
+      {
+        "title": "Homa Belly Core v1.9.5+ migration guide",
+        "url": "https://support.homagames.com/knowledge/homa-belly-core-migration-guide"
+      },
+      {
+        "title": "Homa CDN",
+        "url": "https://support.homagames.com/knowledge/homa-cdn"
+      },
+      {
+        "title": "Idea Generator (BETA)",
+        "url": "https://support.homagames.com/knowledge/idea-generator-beta"
+      },
+      {
+        "title": "Game Design Document for studios",
+        "url": "https://support.homagames.com/knowledge/game-design-document-for-studios"
+      }
+    ]
+  },
+  {
+    "category": "Homa Belly SDK",
+    "description": "Homa Belly SDK integration and testing",
+    "subCategories": [
+      {
+        "subCategory": "Getting started on Homa Belly",
+        "articles": [
+          {
+            "title": "System Requirements",
+            "url": "https://support.homagames.com/knowledge/homa-belly-system-requirements",
+            "content": [
+              {
+                "section": "General Requirements",
+                "details": [
+                  {
+                    "description": "Unity Editor Version",
+                    "requirement": "Unity LTS versions",
+                    "link": "https://unity.com/releases/editor/qa/lts-releases"
+                  },
+                  {
+                    "description": "Java Runtime",
+                    "requirement": "Java Runtime installed on your machine",
+                    "link": "https://www.java.com/en/download/manual.jsp"
+                  }
+                ]
+              },
+              {
+                "section": "Android Requirements",
+                "details": [
+                  {
+                    "description": "Minimum SDK",
+                    "requirement": "Android 5.1 Lolipop (API level 22)"
+                  },
+                  {
+                    "description": "Scripting Backend",
+                    "requirement": "IL2CPP"
+                  },
+                  {
+                    "description": "API Compatibility Level",
+                    "requirement": ".NET 4.x"
+                  },
+                  {
+                    "description": "Target API Level",
+                    "requirement": "33"
+                  },
+                  {
+                    "description": "Managed Stripping Level",
+                    "requirement": "Low",
+                    "note": "⚠️"
+                  }
+                ]
+              },
+              {
+                "section": "iOS Requirements",
+                "details": [
+                  {
+                    "description": "Minimum iOS Version",
+                    "requirement": "12.0"
+                  },
+                  {
+                    "description": "API Compatibility Level",
+                    "requirement": ".NET 4.x"
+                  },
+                  {
+                    "description": "HTTP Downloads",
+                    "requirement": "Allowed over HTTP (nonsecure)"
+                  },
+                  {
+                    "description": "XCode Version",
+                    "requirement": "12.4 or higher"
+                  },
+                  {
+                    "description": "Managed Stripping Level",
+                    "requirement": "Low",
+                    "note": "⚠️"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Initialization",
+            "url": "https://support.homagames.com/knowledge/homa-belly-initialization",
+            "content": [
+              {
+                "section": "Overview",
+                "details": "Homa Belly is initialized automatically, initializing also all the installed libraries. There is no need to initialize any library manually."
+              },
+              {
+                "section": "Initialization Callback & Property",
+                "details": "Homa Belly offers a way to be notified when the whole SDK has been initialized: either listening to the event Events.onInitialized or reading the property HomaBelly.Instance.IsInitialized.",
+                "example": {
+                  "code": "// Don't forget to import the HomaBelly namespace\nusing HomaGames.HomaBelly;\n\npublic class MyMonoBehaviour : MonoBehaviour\n{\n    public void Awake()\n    {\n        if (!HomaBelly.Instance.IsInitialized)\n        {\n            // Listen event for initialization\n            Events.onInitialized += OnInitialized;\n        }\n        else\n        {\n            // Homa Belly already initialized\n        }\n    }\n    \n    private void OnDisable()\n    {\n        Events.onInitialized -= OnInitialized;\n    }\n\n    private void OnInitialized()\n    {\n        // Homa Belly initialized, call any Homa Belly method\n    }\n}"
+                }
+              }
+            ]
+          },
+          {
+            "title": "Homa Belly Settings",
+            "url": "https://support.homagames.com/knowledge/homa-belly-settings",
+            "content": [
+              {
+                "section": "Accessing Settings",
+                "details": "Settings can be accessed through Window > Homa Games > Homa Belly > Settings",
+                "image": "https://support.homagames.com/hs-fs/hubfs/hb_settings.png"
+              },
+              {
+                "section": "Settings Overview",
+                "settings": [
+                  {
+                    "name": "Global",
+                    "options": [
+                      {
+                        "setting": "Development Mode",
+                        "description": "If enabled you will be able to see all logs of your game. Disable it before releasing to production. Notice: you won’t be able to push to the Google Play Store if this toggle is enabled. Be aware Apple App Store will let you publish a build with this flag, resulting in a misfunctional build"
+                      },
+                      {
+                        "setting": "Disable Debug.Logs",
+                        "description": "Homa Belly overrides Unity’s Debug class for production performance optimization. Disable this if you don’t want this optimization or you override Debug class on your own."
+                      },
+                      {
+                        "setting": "Default Analytics",
+                        "description": "Enable default analytics to track Homa Belly ready to use events. Disable this is you are fully customizing your tracking events"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Unity Editor",
+                    "options": [
+                      {
+                        "setting": "Editor Analytics",
+                        "description": "Enable Editor Analytics to help Homa Games to better read and diagnose Homa Belly usage."
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Data Privacy",
+                    "options": [
+                      {
+                        "setting": "Game Name",
+                        "description": "Your game’s name that will be displayed in the GDPR screens"
+                      },
+                      {
+                        "setting": "[iOS only] Privacy Popup Message",
+                        "description": "The iOS native popup message to request App Tracking Transparency permission to the user, allowing to collect IDFA. For Chinese builds, set the message to: 'Homa 或第三方合作伙伴或将收集相关数据用于 广告优化及分析目的'"
+                      },
+                      {
+                        "setting": "GDPR & IDFA",
+                        "description": "This settings are configured in your Homa Belly manifest from Homa Lab. You can Force Disable GDPR if you want to fully skip this flow. For example, for Chinese builds"
+                      },
+                      {
+                        "setting": "Colors",
+                        "description": "Colors to be applied to GDPR screens, buttons and texts"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Installing and Updating Homa SDK",
+            "url": "https://support.homagames.com/knowledge/installing-and-updating-homa-sdk",
+            "content": [
+              {
+                "section": "What is Homa Belly SDK",
+                "description": "Homa Belly SDK is an ecosystem of Unity packages, with some being optional and others required depending on your project configuration in Homa Lab. This article will guide you on adding the Homa SDK Installer to your project, which will enable you to install project dependencies configured in the Homa Lab dashboard.",
+                "link": "https://lab.homagames.com/"
+              },
+              {
+                "section": "Installing Homa SDK Installer",
+                "steps": [
+                  {
+                    "step": 1,
+                    "description": "Download and import .unitypackage file into your Unity project",
+                    "link": "https://lab.homagames.com/damysus/info"
+                  },
+                  {
+                    "step": 2,
+                    "description": "A pop-up will appear, prompting you to accept the installation. Click on the Accept button and patiently wait for the project to finish importing and compiling new scripts.",
+                    "image": "https://support.homagames.com/hs-fs/hubfs/Screenshot%20Oct%2027%20from%20TinyPNG-png.png"
+                  },
+                  {
+                    "step": 3,
+                    "description": "After the installation is complete, a pop-up window will appear. Click on the 'Begin Setup' button or go to Homa Games > SDK Setup menu to continue to the next step.",
+                    "image": "https://support.homagames.com/hs-fs/hubfs/Screenshot%20Oct%2027%20from%20TinyPNG%20(1)--png.png"
+                  },
+                  {
+                    "step": 4,
+                    "description": "An Homa Lab Bridge window will open. Please enter your Homa Lab App Token (You can find it in the Submission Details section after registering your game on Homa Lab) and click on the 'Install Packages' button. This will display a list of SDK packages that have been configured in Homa Lab.",
+                    "image": "https://support.homagames.com/hs-fs/hubfs/Animated%20WebP%20Maker-webp.webp"
+                  }
+                ]
+              },
+              {
+                "section": "Updating Homa Belly SDK",
+                "description": "After adding the Homa SDK Installer package to your project, you will only need to follow step 4 in order to update your project with the latest packages configured in your Homa Lab dashboard. Navigate to Homa Games > SDK Setup menu to open the Homa Lab Bridge window."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

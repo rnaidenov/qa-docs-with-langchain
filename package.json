@@ -1,0 +1,17 @@
+{
+  "name": "chatbot-from-docs",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@langchain/pinecone": "^0.0.4",
+    "@pinecone-database/pinecone": "^2.2.0",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.1.31"
+  }
+}
